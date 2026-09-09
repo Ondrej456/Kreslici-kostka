@@ -1,0 +1,77 @@
+.kresleni{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.kresleni a{
+    display: inline-block;
+   transition: transform 1s ease; 
+}
+.kresleni a:hover{ transform: scale(1.1);}
+.boxKresleni{
+    display: grid;
+    width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, minmax(200px,1fr));   
+    gap: 40px;
+}
+.main-kostka{
+    width: 100%;
+    display: grid;
+    padding: 5px;
+    grid-template-columns:  1fr;
+    gap: 20px 0px;
+}
+#kostka{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    border: 5px solid;
+    margin: 50px;
+    width: 115px;
+    height: 115px;
+}
+#popisek p{
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--cl-zvyraznění);
+}
+#popisek a{
+    text-decoration: none;
+    color: black;
+}
+#clearBarva{
+    margin-left: 400px;
+}
+#barva div{
+    
+    display: flex;
+    flex-direction:row;
+    margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+}
+#barva input{
+   width: 25px;
+   height: 25px;
+   border-radius: 50px;
+}
+#barva button{
+     margin: 20px;
+    font-size: 25px;
+}
+#barva label{
+    font-size: xx-large;
+}
+#clear{
+    margin: 20px;
+    font-size: 20px;
+}
+.logo{
+    position: absolute;
+    right: 10px;
+
+}

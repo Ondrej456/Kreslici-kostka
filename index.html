@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procvičování</title>
+    
+    <link rel="stylesheet" href="style.css">   <!-- rel říká prohlížeči co je to za soubor -->
+</head>
+<body>
+
+          
+            <main class="main-kostka">
+                <div id="mrizka"></div>
+                <div id="clearBarva"><button id="clear" onclick="clearkostka()">Vyčisti kostku</button></div>
+                    <div id="barva">
+                        <div>
+                            <div class="logo"><a href="mailto: v.incent@seznam.cz"><img src="images/logo.svg" alt="email" title="v.incent@seznam.cz"></a></div>
+                            <input type="radio" name="barvy" id="black"></input>
+                            <label for="black" style="background-color: black;color: white;">černá</label>
+                            
+                            <input type="radio" name="barvy" id="blue"></input>
+                            <label for="blue" style="background-color:blue;color: white;">modrá</label>
+
+                            <input type="radio" name="barvy" id="green"></input>
+                            <label for="green" style="background-color:green;color: white;">zelená</label>
+
+                            <input type="radio" name="barvy" id="red"></input>
+                            <label for="red" style= "background-color: red; color: white;">červená</label>
+
+                            <input type="radio" name="barvy" id="white"></input>
+                            <label for= "white" style= "background-color:rgb(191, 178, 178); color: rgb(250, 250, 250);">bílá</label>
+
+                            <button onclick="barva()" id="tlacitko">Vybrat barvu</button>
+                        </div>
+                        
+                    </div>
+                
+            </main>
+           
+     
+    <script src="script.js"></script>
+</body>
+</html>
